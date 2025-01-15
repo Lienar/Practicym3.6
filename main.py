@@ -254,7 +254,7 @@ def callback_query(call):
         ''' Обработка кнопки отправки в чат случайной шутки '''
     elif call.data == "image":
         bot.send_message(call.message.chat.id, "Send me an image, and I'll provide options for you!")
-        ''' Обработка кнопки hf,jns c bpj,hf;tybtv '''
+        ''' Обработка кнопки старта работы с изображением '''
 
 
 def pixelate_and_send(message):
